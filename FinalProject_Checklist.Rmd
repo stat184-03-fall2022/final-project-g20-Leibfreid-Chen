@@ -1,0 +1,88 @@
+---
+title: 'Final Project Checklist'
+author: "AUTHOR NAME(S)"
+date: "Due: DATE"
+output: html_notebook
+---
+
+# Purpose
+
+*This document is required to indicate where various requirements can be found within the `Rmd` that produced your Final Project Report.  You must* **indicate line numbers as they appear in your final `Rmd` document** *accompanying each of the following required tasks. Points will be deducted if line numbers are missing or differ significantly from the `Rmd` of your submitted Final Project Report.*  
+
+### Example (for illustration) 
+
+(A) Rmd Line number for title: 2
+
+(B) Rmd Line number for author names: 3
+
+(C) Rmd Line number for due date: 4
+
+# Final Project Requirements
+
+
+### Data Access
+
+*Description: (1) Analysis includes at least two different data sources. (2) Primary data source may NOT be loaded from an R package--though supporting data may. (3) Access to all data sources is contained within the analysis. (4) Imported data is inspected at beginning of analysis using one or more R functions: e.g., str, glimpse, head, tail, names, nrow, etc*
+
+(A) .Rmd Line numbers where at least two different data sources are imported:  
+
+
+(B) .Rmd Line numbers for inspecting data intake:  
+
+
+### Data Wrangling / Cleaning / etc (4 out of 7 required)
+
+
+(A) .Rmd Line number(s) for general data wrangling: 
+
+
+(B) .Rmd Line number(s) for a join operation: 
+
+
+(C) .Rmd Line number(s) for a pivot_wider or pivot_longer operation (or equivalent):
+
+
+(D) .Rmd Line number(s) for use of regular expressions: 
+
+
+(E) .Rmd Line number(s) for use of reduction and/or transformation functions: 
+
+
+(F) .Rmd Line number(s) for use of user-defined functions: 
+
+
+(G) .Rmd Line number(s) for use of loops and/or control flow: 
+
+
+
+
+
+### Data Visualization (include the lines where you are plotting relevant graphs or shapes, YOU DO NOT have to use all the following)
+
+
+(A) .Rmd Line numbers for use of multiple different geoms:  
+
+(B) .Rmd Line number(s) for use of multiple aesthetics:  
+
+(C) .Rmd Line number(s) for use of layered graphics:  
+
+(D) .Rmd Line number(s) for use of leaflet or choropleth maps:  
+
+(E) .Rmd Line number(s) for use of decision tree or dendogram results:    
+
+
+
+
+### Other requirements (Nothing for you to report in this Guidance Document)
+
+(A) *All data visualizations* must be relevant to the stated research question, and the report must include at least one effective display of many--at least 2--variables (excluding maps or decision trees)
+
+(B) *Code quality:* Code formatting is consistent with Style Guide Appendix of DataComputing eBook. Specifically, all code chunks demonstrate proficiency with (1) meaningful object names (2) proper use of white spaces and new lines (3) use of meaningful comments.
+
+(C) *Narrative quality:* The narrative text--sentences and paragraphs--(1) clearly states one guiding question or research question for your investigation (2) explains why this topic is important and/or interesting to investigate (3) explains one or more significant findings or conclusions of your investigation that is clearly related to the guiding/research question
+
+(D) *Overall Quality:* (1) Submitted project shows significant effort to produce a high-quality and thoughtful analysis that contains interpretation of plots and other output  (2) The analysis is well-organized and easy to follow, and (3) Free of extraneous content - examples: do NOT output full data frames of >20 rows, any unrelated graphs, or other content with unclear purpose
+
+(E) *GitHub Repo:* (1) (1) At least 3 commits pushed to provided GitHub repo PER person (2) All commits must have an informative commit message that summarizes the contribution (3) Final project is entirely contained in the provided repo, including data sources, documents, and anything else that another analyst would need to reproduce your entire analysis (e.g. do NOT make any references to your personal desktop like C:\Users\Omar\STAT184)
+
+
